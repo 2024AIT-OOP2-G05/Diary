@@ -1,9 +1,17 @@
+from diaries.HukurouDiary import HukurouDiary
+from diaries.KawaiDiary import KawaiDiary
+from diaries.SakuraiDiary import SakuraiDiary
+from diaries.TakayaDiary import TakayaDiary
+from diaries.MaedaDiary import MaedaDiary
 from diaries.HiromiDiary import HiromiDiary
 
 # ↓のリストには，メンバーの各日記が格納されます，
-diaries = [
-    HiromiDiary (), 
-]
+diaries = [HukurouDiary(),
+           KawaiDiary(),
+           SakuraiDiary(),
+           TakayaDiary(),
+           MaedaDiary(),
+           HiromiDiary ()]
 
 for d in diaries:
     print("----------------------------------")
