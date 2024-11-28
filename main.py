@@ -3,13 +3,15 @@ from diaries.KawaiDiary import KawaiDiary
 from diaries.SakuraiDiary import SakuraiDiary
 from diaries.TakayaDiary import TakayaDiary
 from diaries.MaedaDiary import MaedaDiary
+from diaries.HiromiDiary import HiromiDiary
 
 # ↓のリストには，メンバーの各日記が格納されます，
 diaries = [HukurouDiary(),
            KawaiDiary(),
            SakuraiDiary(),
            TakayaDiary(),
-           MaedaDiary(),]
+           MaedaDiary(),
+           HiromiDiary ()]
 
 for d in diaries:
     print("----------------------------------")
